@@ -9,18 +9,17 @@
 
 ## Project Description
 
-This project is a simple Packet Sniffer and Network Analyzer developed using Python. It captures network packets from the network interface, analyzes different protocols, stores packet information in a CSV file, and presents the collected data using graphs.
+This project is a simple Packet Sniffer and Network Analyzer developed using Python. It captures live network packets, analyzes different network protocols, stores packet information in a CSV file, and visualizes the collected data using graphs.
 
-The main objective of this project is to understand network traffic analysis and basic packet capturing techniques using Python.
+The main objective of this project is to understand basic network traffic analysis and packet capturing techniques.
 
 ---
 
 ## Features
 
 - Capture live network packets
-- Analyze network traffic
-- Detect different protocols (TCP, UDP, ICMP)
-- Save captured packets into a CSV file
+- Analyze TCP, UDP, and ICMP protocols
+- Save packet details in a CSV file
 - Generate protocol distribution graph
 - Display top active IP addresses
 - Easy to understand and user-friendly
@@ -73,12 +72,12 @@ Run the following command:
 python src/packet_sniffer.py
 ```
 
-After running the program:
+The program will:
 
-- Network packets will be captured.
-- Packet information will be saved in a CSV file.
-- Protocol distribution graph will be generated.
-- Top active IP addresses graph will be displayed.
+- Capture network packets
+- Save packet information into a CSV file
+- Generate protocol distribution graph
+- Display top active IP addresses
 
 ---
 
@@ -135,13 +134,9 @@ packet-sniffer-network-analyzer/
 
 ![Program Output](screenshots/output_screenshot.png)
 
----
-
 ### Protocol Distribution
 
 ![Protocol Distribution](figures/protocol_distribution.png)
-
----
 
 ### Top Active IP Addresses
 
@@ -151,7 +146,7 @@ packet-sniffer-network-analyzer/
 
 ## Conclusion
 
-The Packet Sniffer and Network Analyzer project demonstrates how Python can be used to capture and analyze network traffic efficiently. It helps users understand packet transmission, identify commonly used protocols, and visualize network activity through graphs. This project provides a practical introduction to network monitoring and packet analysis concepts.
+This project demonstrates the basic concepts of packet capturing and network traffic analysis using Python. It helps users understand how packets travel through a network, identify commonly used protocols, and visualize network activity through graphs.
 
 ---
 
